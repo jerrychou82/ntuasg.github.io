@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<title>台大棒球明星賽</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
+<link rel="stylesheet" href="css/main.css">
+<script src="js/main.js"></script>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-card-8 w3-center w3-collapse w3-top w3-left-align w3-large">
+    <li style="width:16.5%" class="w3-hide-small"><a href="javascript:void(0)" onclick="w3_open('news')" class="w3-red w3-hover-white">最新消息</a></li>
+    <li style="width:17.5%" class="w3-hide-small"><a href="javascript:void(0)" onclick="w3_open('about')" class="w3-yellow w3-hover-white">明星賽簡介</a></li>
+    <li style="width:16.5%" class="w3-hide-small"><a href="javascript:void(0)" onclick="w3_open('structure')" class="w3-green w3-hover-white">組織架構</a></li>
+    <li style="width:16.5%" class="w3-hide-small"><a href="javascript:void(0)" onclick="w3_open('retrospect')" class="w3-light-blue w3-hover-white">成果回顧</a></li>
+    <li style="width:16.5%" class="w3-hide-small"><a href="javascript:void(0)" onclick="w3_open('video')" class="w3-blue w3-hover-white">影音專區</a></li>
+    <li style="width:16.5%" class="w3-hide-small"><a href="javascript:void(0)" onclick="w3_open('vote')" class="w3-gray w3-hover-white">票選網站</a></li>
+  </ul>
+</div>
+
+
+<!-- Sidenav -->
+<nav class="w3-sidenav w3-collapse w3-theme-l5 w3-animate-right" style="z-index:3;right:0;width:200px;margin-top:51px;" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="close menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4><b>相關資訊</b></h4>
+  <a href="https://www.facebook.com/台大棒球明星賽2017-NTU-Baseball-ASG-815683195240466" target="_blank" class="w3-hover-black">粉專連結 <i class="fa fa-facebook-square"></i></a>
+  <a href="#" class="w3-hover-black">Youtube頻道連結 <i class="fa fa-youtube"></i></a>
+</nav>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- news -->
+<div class="w3-main" style="margin-right:200px" id="news">
+  <div class="w3-row mysection-first">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">最新消息</h1>
+    </div>
+    <div class="w3-container">
+      <ul class="w3-ul w3-card-4">
+        <li class="w3-padding-16">
+          <span class="w3-xlarge">2017-01-28</span><br>
+          <span>最新文章</span>
+        </li>
+        <li class="w3-padding-16">
+          <span class="w3-xlarge">2017-01-28</span><br>
+          <span>最新文章</span>
+        </li>
+        <li class="w3-padding-16">
+          <span class="w3-xlarge">2017-01-28</span><br>
+          <span>最新文章</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- about -->
+<div class="w3-main" style="margin-right:200px;display:none" id="about">
+  <div class="w3-row mysection-first">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">一、成立初衷</h1>
+      <p>台大為台灣最頂尖的大學，校內的運動風氣十分熱絡。近年來，校內排球、籃球等運動順應潮流，舉辦台大全明星對抗賽，成功製造不少話題，進而提升人氣，促進運動人口增加，活動更為熱絡。</p>
+      <p>而台大校內從事棒球運動人口雖多，且定期舉行棒球系隊間之對抗賽，如新生盃棒球賽、台大盃棒球賽和攻城盃棒球賽等，但參與人數、熱度卻未見提升。反觀同屬國內少數擁有棒球系隊的政大，於2014及2015年舉辦了「紅白明星對抗賽」，成功地提升了該校校內棒球的關注度及參與人數。</p>
+      <p>因此，一群對台大棒球環境有著更高期盼的夥伴，從今年六月開始，持續地針對「如何提升棒球運動在校內的關注度」進行討論，凝聚共識後決定籌組台大棒球明星賽企劃小組，希望可以藉由「台大棒球明星賽」的號召，吸引校內熱衷棒球運動的同學，一同來參與一場仲夏的棒球饗宴。</p>
+    </div>
+  </div>
+
+  <div class="w3-row mysection">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">二、賽事簡介</h1>
+      <p>由近六年曾進校內盃賽八強賽事之隊伍及全校同學提名校內球員進行票選，選出四十位明星球員，分為兩隊進行對抗賽。賽事當天並將舉辦棒球體驗遊戲，讓參與的觀眾除了觀賞比賽以外，更可親身體驗棒球運動，以達推廣之效果。此外，亦有明星賽相關紀念商品之販售，使參與人員能留下彌足珍貴的紀念。</p>
+    </div>
+  </div>
+</div>
+
+<!-- structure -->
+<div class="w3-main" style="margin-right:200px;display:none" id="structure">
+  <div class="w3-row mysection-first">
+    <div class="w3-container">
+      <img src="images/structure.png" style="width:90%">
+    </div>
+  </div>
+</div>
+
+<!-- retrospect -->
+<div class="w3-main" style="margin-right:200px;display:none" id="retrospect">
+  <div class="w3-row mysection-first">
+    <div class="w3-container">
+    </div>
+  </div>
+</div>
+
+<!-- video -->
+<div class="w3-main" style="margin-right:200px;display:none" id="video">
+  <div class="w3-row mysection-first">
+    <div class="w3-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1CIEvprsKmo?list=PLgKuh-lKre11yRALnYFqro91bfIZf8Vjb" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- vote -->
+<div class="w3-main" style="margin-right:200px;display:none" id="vote">
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  </div>
+</div>
+
+<!-- footer -->
+<footer id="myFooter">
+  <div class="w3-container w3-theme-l2">
+    <p>台大棒球明星賽2017 - NTU Baseball All Star Game</p>
+  </div>
+  <div class="w3-container w3-theme-l1">
+    <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
